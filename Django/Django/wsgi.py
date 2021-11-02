@@ -3,9 +3,9 @@ import os
 import sys
 import platform
 #путь к проекту, там где manage.py
-sys.path.insert(0, '/opt/build/Django')
+sys.path.insert(0, '/Django')
 #путь к фреймворку, там где settings.py
-sys.path.insert(0, '/opt/build/Django/Django')
+sys.path.insert(0, '/Django/Django')
 #путь к виртуальному окружению myenv
 #sys.path.insert(0, '/home/c/cx53558/newsite/myenv/lib/python{0}/site-packages'.format(platform.python_version()[0:3]))
 #sys.path.insert(0, '/home/c/cx53558/newsite/myenv/lib/python3.6/site-packages')
